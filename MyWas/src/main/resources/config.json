@@ -1,0 +1,24 @@
+{
+	"threadsCnt"	:	"50",
+	"port"			:	"8080",
+	"hostInfo" : [{
+					"hostname"	:	"localhost"
+					"docroot"	:	"/Users/SungJun/MyWas/docroot/",
+					"indexFile" :	"index.html"
+				 },{
+					"hostname"	:	"a.com"
+					"docroot"	:	"/Users/SungJun/MyWas/docroot/",
+					"indexFile" :	"a.html"
+				 },{
+					"hostname"	:	"b.com"
+					"docroot"	:	"/Users/SungJun/MyWas/docroot/",
+					"indexFile" :	"b.html"
+				 }],
+	"errorPage" : [{
+					"path"		:	"/Users/SungJun/MyWas/docroot/", 
+					"403"		:	{"fileName" : "403.html", "message" : "403 Forbidden"},
+					"404"		:	{"fileName" : "404.html", "message" : "404 File Not Found"},
+					"500"		:	{"fileName" : "500.html", "message" : "500 Internal Server Error"},
+					"501"		:	{"fileName" : "501.html", "message" : "501 Not Implemented"}
+				 }]
+}
